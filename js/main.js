@@ -12,6 +12,6 @@ $(
                 click_to_move: false // Allow a user to click (or tap) anywhere on the image to move the slider to that location.
             }
         );
-        $("#circus #coliseum").twentytwenty();
+        $("#circus, #coliseum").twentytwenty();
     }
 );
