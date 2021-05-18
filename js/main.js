@@ -1,5 +1,5 @@
 $(
-    function(){
+    () => {
         $(".twentytwenty-container").twentytwenty(
             {
                 //default_offset_pct: 0.7, // How much of the before image is visible when the page loads
@@ -12,10 +12,6 @@ $(
                 click_to_move: false // Allow a user to click (or tap) anywhere on the image to move the slider to that location.
             }
         );
-    }
-);
-$(
-    function(){
         $("#circus #coliseum").twentytwenty();
     }
 );
