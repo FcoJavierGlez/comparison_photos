@@ -1,0 +1,11 @@
+main {
+    *height: 100vh;
+}
+
+.twentytwenty-overlay {
+    display: none;
+}
+
+.container-img {
+    margin: 15px auto;
+}
